@@ -1,8 +1,5 @@
 package com.example.batman.digicash1;
 
-/**
- * Created by batman on 15/7/18.
- */
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -60,7 +57,7 @@ public class CustomPhoneStateListener extends Activity {
             int width = dm.widthPixels;
             int height = dm.heightPixels;
 
-            getWindow().setLayout((int)(width*.8),(int)(height*.6));
+            getWindow().setLayout((int)(width*.8),(int)(height*.3));
 
 
         }
