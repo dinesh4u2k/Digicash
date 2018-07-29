@@ -42,7 +42,7 @@ public class PhoneStateReceiver extends BroadcastReceiver {
                 {
                     context.startActivity(i);
                 }
-            },2000);
+            },3000);
 
         }
     }
